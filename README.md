@@ -84,15 +84,15 @@ npm run serve
   - View Feedback Details: Click on a feedback card to view details of the selected feedback.
   - Add New Feedback: Click on the "Add Feedback" button to open the form for submitting new feedback.
 
-![View Feedback List](https://example.com/feedback-app-logo.png)
-![ Add New Feedback](https://example.com/feedback-app-logo.png)
+![View Feedback List](https://raw.githubusercontent.com/eadortsu/feedback-app/main/screenshots/fe1.png)
+![ Add New Feedback](https://raw.githubusercontent.com/eadortsu/feedback-app/main/screenshots/fe2.png)
 
 
 
 - **Backend:**
   - Access API Endpoints: Use tools like Postman or cURL to interact with the API endpoints for managing feedback submissions.
-  - API Documentation: Refer to the API documentation (if available) for details on available endpoints and request/response formats.
-    ![Feedback App Logo](https://example.com/feedback-app-logo.png)
+  - API Documentation: You can access the Swagger documentation for the APIs at `http://localhost:4000/api-docs` for details on available endpoints and request/response formats.
+    ![Feedback App Logo](https://raw.githubusercontent.com/eadortsu/feedback-app/main/screenshots/be.png)
 
 ## Author
 
