@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from '../src';
+import app from '../index';
 import mongoose from "mongoose";
 
 describe('Feedback API', () => {
