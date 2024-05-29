@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
 ```
-git clone <repository_url>
+gh repo clone eadortsu/feedback-app
 ```
 
 2. Navigate to the frontend directory:

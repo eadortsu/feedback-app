@@ -23,7 +23,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   gh repo clone eadortsu/feedback-app
    ```
 
 2. Navigate to the project directory:
