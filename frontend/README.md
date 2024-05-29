@@ -1,9 +1,60 @@
-# Vue 3 + TypeScript + Vite
+# Feedback App - Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is the frontend application for the Feedback App project. It provides a user interface for viewing and managing feedback submissions.
 
-## Recommended Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- View a list of feedback submissions
+- Paginate through feedback submissions
+- Filter feedback by type
+- Sort feedback by name or date
+- View details of individual feedback submissions
+- Add new feedback submissions
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Technologies Used
+
+- Vue.js
+- TypeScript
+- Axios for HTTP requests
+- Tailwind CSS for styling
+- FontAwesome for icons
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+```
+git clone <repository_url>
+```
+
+2. Navigate to the frontend directory:
+
+```
+cd frontend
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+5. Open your web browser and navigate to [http://localhost:5173](http://localhost:5173) to view the app.
+
+## Usage
+
+- **View Feedback List:** The main page displays a list of feedback submissions. Use pagination buttons to navigate between pages.
+- **Filter Feedback:** Use the dropdown menu to filter feedback submissions by type (Bug or Suggestion).
+- **Sort Feedback:** Use the dropdown menu to sort feedback submissions by name or date.
+- **View Feedback Details:** Click on a feedback card to view details of the selected feedback.
+- **Add New Feedback:** Click on the "Add Feedback" button to open the form for submitting new feedback.
+
+
