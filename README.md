@@ -17,6 +17,7 @@ This is a full-stack web application for collecting and managing user feedback s
   - Endpoints for creating and reading, feedback
   - Pagination, filtering, and sorting options for querying feedback data
   - MongoDB database for storing feedback submissions
+  -  Jest for Unit testing 
 
 ## Technologies Used
 
@@ -63,13 +64,13 @@ npm install
 
 ```
 cd backend
-npm start
+npm run dev
 ```
 
-5. Start the frontend development server:
+5. Start the frontend development server in a diffrent terminal:
 
 ```
-cd ../frontend
+cd frontend
 npm run serve
 ```
 
