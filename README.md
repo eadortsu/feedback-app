@@ -14,7 +14,7 @@ This is a full-stack web application for collecting and managing user feedback s
 
 - **Backend:**
   - RESTful API for managing feedback submissions
-  - Endpoints for creating, reading, updating, and deleting feedback
+  - Endpoints for creating and reading, feedback
   - Pagination, filtering, and sorting options for querying feedback data
   - MongoDB database for storing feedback submissions
 
