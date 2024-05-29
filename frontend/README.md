@@ -57,4 +57,8 @@ npm run dev
 - **View Feedback Details:** Click on a feedback card to view details of the selected feedback.
 - **Add New Feedback:** Click on the "Add Feedback" button to open the form for submitting new feedback.
 
+## Author
 
+- Eugene Adortsu
+- Email: eugeneadortsu@gmail.com
+- GitHub: [eadortsu](https://github.com/eadortsu)
