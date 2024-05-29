@@ -3,8 +3,9 @@
 This is a full-stack web application for collecting and managing user feedback submissions. It consists of both frontend and backend components.
 
 ## Demo
-Frontend: https://feedback-app-k7kp.onrender.com
-Backend: https://feedback-app-backend-0hqk.onrender.com/api-docs/
+- Frontend: https://feedback-app-k7kp.onrender.com
+- Backend: https://feedback-app-backend-0hqk.onrender.com/api-docs/
+-  Repo: https://github.com/eadortsu/feedback-app
 
 ## Features
 
