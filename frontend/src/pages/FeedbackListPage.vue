@@ -21,6 +21,7 @@ import Sidebar from '../components/Sidebar.vue';
 import FeedbackDisplay from '../components/FeedbackDisplay.vue';
 import axios from 'axios';
 import { Feedback } from '../types/Feedback';
+const { VITE_API_URL } = import.meta.env;
 
 interface FetchOptions {
   page?: number;
@@ -45,7 +46,7 @@ export default defineComponent({
 
     const fetchFeedbacks = async ({ page = currentPage.value, limit = 10, type = filterType.value, sortBy = sortOption.value, order = 'desc' }: FetchOptions = {}) => {
       try {
-        const response = await axios.get(`/api/feedback?page=${page}&limit=${limit}&type=${type}&sortBy=${sortBy}&order=${order}`);
+        const response = await axios.get(`${VITE_API_URL}/api/feedback?page=${page}&limit=${limit}&type=${type}&sortBy=${sortBy}&order=${order}`);
         feedbacks.value = response.data.results;
         currentPage.value = page;
         totalPages.value = response.data.totalPages

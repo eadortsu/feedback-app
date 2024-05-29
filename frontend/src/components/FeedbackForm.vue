@@ -34,6 +34,7 @@
 import { defineComponent, ref } from 'vue';
 import axios from 'axios';
 import { useRouter } from 'vue-router';
+const { VITE_API_URL } = import.meta.env;
 
 export default defineComponent({
   setup() {
@@ -46,7 +47,7 @@ export default defineComponent({
 
     const submitFeedback = async () => {
       axios
-        .post('/api/feedback', {
+        .post(`${VITE_API_URL}/api/feedback`, {
           name: name.value,
           email: email.value,
           type: type.value,

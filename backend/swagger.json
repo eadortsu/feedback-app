@@ -9,6 +9,10 @@
     {
       "url": "http://localhost:4000",
       "description": "Local server"
+    },
+    {
+      "url": "https://feedback-app-backend-0hqk.onrender.com",
+      "description": "Demo server"
     }
   ],
   "components": {
